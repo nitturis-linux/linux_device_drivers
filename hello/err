@@ -1,0 +1,147 @@
+/home/shiva/BrainChild/Git/ldd/hello/hello.c: In function ‘hello_init’:
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:13:1: error: stray ‘\342’ in program
+ printk(KERN_ALERT “I bear a charmed life.\n”);
+ ^
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:13:1: error: stray ‘\200’ in program
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:13:1: error: stray ‘\234’ in program
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:13:22: error: expected ‘)’ before ‘I’
+ printk(KERN_ALERT “I bear a charmed life.\n”);
+                      ^
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:13:22: error: stray ‘\’ in program
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:13:22: error: stray ‘\342’ in program
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:13:22: error: stray ‘\200’ in program
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:13:22: error: stray ‘\235’ in program
+/home/shiva/BrainChild/Git/ldd/hello/hello.c: In function ‘hello_exit’:
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:21:2: error: stray ‘\342’ in program
+  printk(KERN_ALERT “Out, out, brief candle!\n”);
+  ^
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:21:2: error: stray ‘\200’ in program
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:21:2: error: stray ‘\234’ in program
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:21:23: error: expected ‘)’ before ‘Out’
+  printk(KERN_ALERT “Out, out, brief candle!\n”);
+                       ^
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:21:23: error: stray ‘\’ in program
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:21:23: error: stray ‘\342’ in program
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:21:23: error: stray ‘\200’ in program
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:21:23: error: stray ‘\235’ in program
+/home/shiva/BrainChild/Git/ldd/hello/hello.c: At top level:
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:25:1: error: stray ‘\342’ in program
+ MODULE_LICENSE(“GPL”);
+ ^
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:25:1: error: stray ‘\200’ in program
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:25:1: error: stray ‘\234’ in program
+In file included from include/linux/module.h:17:0,
+                 from /home/shiva/BrainChild/Git/ldd/hello/hello.c:5:
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:25:19: error: expected ‘,’ or ‘;’ before ‘GPL’
+ MODULE_LICENSE(“GPL”);
+                   ^
+include/linux/moduleparam.h:23:26: note: in definition of macro ‘__MODULE_INFO’
+   = __stringify(tag) "=" info
+                          ^
+include/linux/module.h:124:34: note: in expansion of macro ‘MODULE_INFO’
+ #define MODULE_LICENSE(_license) MODULE_INFO(license, _license)
+                                  ^
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:25:1: note: in expansion of macro ‘MODULE_LICENSE’
+ MODULE_LICENSE(“GPL”);
+ ^
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:25:19: error: stray ‘\342’ in program
+ MODULE_LICENSE(“GPL”);
+                   ^
+include/linux/moduleparam.h:23:26: note: in definition of macro ‘__MODULE_INFO’
+   = __stringify(tag) "=" info
+                          ^
+include/linux/module.h:124:34: note: in expansion of macro ‘MODULE_INFO’
+ #define MODULE_LICENSE(_license) MODULE_INFO(license, _license)
+                                  ^
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:25:1: note: in expansion of macro ‘MODULE_LICENSE’
+ MODULE_LICENSE(“GPL”);
+ ^
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:25:19: error: stray ‘\200’ in program
+ MODULE_LICENSE(“GPL”);
+                   ^
+include/linux/moduleparam.h:23:26: note: in definition of macro ‘__MODULE_INFO’
+   = __stringify(tag) "=" info
+                          ^
+include/linux/module.h:124:34: note: in expansion of macro ‘MODULE_INFO’
+ #define MODULE_LICENSE(_license) MODULE_INFO(license, _license)
+                                  ^
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:25:1: note: in expansion of macro ‘MODULE_LICENSE’
+ MODULE_LICENSE(“GPL”);
+ ^
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:25:19: error: stray ‘\235’ in program
+ MODULE_LICENSE(“GPL”);
+                   ^
+include/linux/moduleparam.h:23:26: note: in definition of macro ‘__MODULE_INFO’
+   = __stringify(tag) "=" info
+                          ^
+include/linux/module.h:124:34: note: in expansion of macro ‘MODULE_INFO’
+ #define MODULE_LICENSE(_license) MODULE_INFO(license, _license)
+                                  ^
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:25:1: note: in expansion of macro ‘MODULE_LICENSE’
+ MODULE_LICENSE(“GPL”);
+ ^
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:26:1: error: stray ‘\342’ in program
+ MODULE_AUTHOR(“Shiva”);
+ ^
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:26:1: error: stray ‘\200’ in program
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:26:1: error: stray ‘\234’ in program
+In file included from include/linux/module.h:17:0,
+                 from /home/shiva/BrainChild/Git/ldd/hello/hello.c:5:
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:26:18: error: expected ‘,’ or ‘;’ before ‘Shiva’
+ MODULE_AUTHOR(“Shiva”);
+                  ^
+include/linux/moduleparam.h:23:26: note: in definition of macro ‘__MODULE_INFO’
+   = __stringify(tag) "=" info
+                          ^
+include/linux/module.h:130:32: note: in expansion of macro ‘MODULE_INFO’
+ #define MODULE_AUTHOR(_author) MODULE_INFO(author, _author)
+                                ^
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:26:1: note: in expansion of macro ‘MODULE_AUTHOR’
+ MODULE_AUTHOR(“Shiva”);
+ ^
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:26:18: error: stray ‘\342’ in program
+ MODULE_AUTHOR(“Shiva”);
+                  ^
+include/linux/moduleparam.h:23:26: note: in definition of macro ‘__MODULE_INFO’
+   = __stringify(tag) "=" info
+                          ^
+include/linux/module.h:130:32: note: in expansion of macro ‘MODULE_INFO’
+ #define MODULE_AUTHOR(_author) MODULE_INFO(author, _author)
+                                ^
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:26:1: note: in expansion of macro ‘MODULE_AUTHOR’
+ MODULE_AUTHOR(“Shiva”);
+ ^
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:26:18: error: stray ‘\200’ in program
+ MODULE_AUTHOR(“Shiva”);
+                  ^
+include/linux/moduleparam.h:23:26: note: in definition of macro ‘__MODULE_INFO’
+   = __stringify(tag) "=" info
+                          ^
+include/linux/module.h:130:32: note: in expansion of macro ‘MODULE_INFO’
+ #define MODULE_AUTHOR(_author) MODULE_INFO(author, _author)
+                                ^
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:26:1: note: in expansion of macro ‘MODULE_AUTHOR’
+ MODULE_AUTHOR(“Shiva”);
+ ^
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:26:18: error: stray ‘\235’ in program
+ MODULE_AUTHOR(“Shiva”);
+                  ^
+include/linux/moduleparam.h:23:26: note: in definition of macro ‘__MODULE_INFO’
+   = __stringify(tag) "=" info
+                          ^
+include/linux/module.h:130:32: note: in expansion of macro ‘MODULE_INFO’
+ #define MODULE_AUTHOR(_author) MODULE_INFO(author, _author)
+                                ^
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:26:1: note: in expansion of macro ‘MODULE_AUTHOR’
+ MODULE_AUTHOR(“Shiva”);
+ ^
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:27:47: error: macro "MODULE_DESCRIPTION" passed 2 arguments, but takes just 1
+ MODULE_DESCRIPTION(“A Hello, World Module”);
+                                               ^
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:27:1: warning: data definition has no type or storage class [enabled by default]
+ MODULE_DESCRIPTION(“A Hello, World Module”);
+ ^
+/home/shiva/BrainChild/Git/ldd/hello/hello.c:27:1: error: type defaults to ‘int’ in declaration of ‘MODULE_DESCRIPTION’ [-Werror=implicit-int]
+cc1: some warnings being treated as errors
+make[1]: *** [/home/shiva/BrainChild/Git/ldd/hello/hello.o] Error 1
+make: *** [_module_/home/shiva/BrainChild/Git/ldd/hello] Error 2

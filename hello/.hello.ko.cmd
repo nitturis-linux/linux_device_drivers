@@ -1,0 +1,1 @@
+cmd_/home/shiva/BrainChild/Git/ldd/hello/hello.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/shiva/BrainChild/Git/ldd/hello/hello.ko /home/shiva/BrainChild/Git/ldd/hello/hello.o /home/shiva/BrainChild/Git/ldd/hello/hello.mod.o
